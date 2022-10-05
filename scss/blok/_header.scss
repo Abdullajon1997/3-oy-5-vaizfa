@@ -1,0 +1,96 @@
+.header
+{
+    &__inner
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &__logo
+        {
+            display: block;
+        }
+        &__menu
+        {
+            display: none;
+        }
+        &__close
+        {
+            display: none;
+        }
+        &__nav
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &__list
+            {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 20px;
+                list-style: none;
+                cursor: pointer;
+                &__item
+                {
+                    position: relative;
+                    width: 80px;
+                    &__first
+                    {
+                        display: none;
+                        position: absolute;
+                        top: 25px;
+                        left: -50px;
+                        list-style: none;
+                        &__item
+                        {
+                            border: 1px black solid;
+                            padding: 5px;
+                        } 
+                    }
+                    &__second
+                    {
+                        display: none;
+                        top: 25px;
+                        left: -45px;
+                        position: absolute;
+                        list-style: none;
+                        &__item
+                        {
+                            border: 1px black solid;
+                            padding: 5px;
+                        }
+                    }
+                }
+            }
+            &__lists
+            {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 40px;
+                list-style: none;
+                &__btn
+                {
+                    padding: 10px 20px;
+                    border-radius: 15px;
+                    &:hover
+                    {
+                        cursor: pointer;
+                        opacity: 0.9;
+                        color: blueviolet;
+                    }
+                }
+                &__link
+                {
+                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                    text-decoration: none;
+                    color: black;
+                    &:hover
+                    {
+                        color: blueviolet;
+                    }
+                }
+            }
+        }
+    }
+}

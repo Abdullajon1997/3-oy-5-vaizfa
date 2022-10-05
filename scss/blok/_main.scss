@@ -1,0 +1,66 @@
+.end
+{
+    &__inner
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        &__our
+        {
+            padding-top: 85px;
+            padding-left: 100px;
+        }
+        &__jpg
+        {
+            display: none;
+        }
+        &__img
+        {
+            display: block;
+            width: 500px;
+            margin-right: 100px;
+        }
+        &__div
+        {
+            margin-top: 100px;
+        }
+        &__h1
+        {
+            width: 600px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 900;
+            font-size: 100px;
+            margin: 0;
+            padding: 0;
+            margin-bottom: 55px;
+        }
+        &__h2
+        {
+            display: none;
+        }
+        &__p
+        {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+             font-size: 20px;
+             margin: 0;
+             padding: 0;
+             margin-bottom: 85px;
+             width: 500px;
+        }
+        &__link
+        {
+            text-decoration: none;
+            border: 1px black solid;
+            padding: 12px 20px;
+            border-radius: 15px;
+            color: black;
+            box-shadow: 0 1px 1px 1px rgb(202, 163, 240);
+            
+            &:hover
+            {
+                box-shadow: 1px 1px 10px 1px rgb(121, 13, 222);
+                background-color: rgb(150, 139, 160);
+            }
+        }
+    }
+}
